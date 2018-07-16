@@ -1,8 +1,14 @@
 ## Welcome to Salesforce Code Versioning Guide
 
-When I got a deadline of 1 week for implementation of a code versioning for our project's Salesforce org, I headed over to Google assuming it would take just 2 days for this implementation. But I was wrong. There were very few resources which provided steps for achieving this. *Challenge Accepted*
+When we got a deadline of 1 week for implementation of a code versioning for our project's Salesforce org, we headed over to Google assuming it would take just 2 days for this implementation. But we were wrong. There were very few resources which provided steps for achieving this. ***Challenge Accepted***
 
-Based on a colleague's suggestion, I decided to use Bitbucket + Bamboo for a quick proof of concept. So here it goes. 
+Based on a colleague's suggestion, we decided to use Bitbucket + Bamboo for a quick proof of concept. After the proof of concept was successful, we tried to understand the basic concepts behind the different alternatives. So, we tried the below combinations after our proof of concept : 
+1. Bitbucket + Jenkins
+2. Github + Bamboo
+3. Github + Jenkins
+4. Bitbucket + Pipelines (our ultimate choice)
+
+So here it goes. 
 
 First : 
 We need to setup a repository for our Salesforce metadata. In our case, we wanted to have a repository only for Apex Classes, Triggers & Visualforce pages. 
