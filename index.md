@@ -1,6 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to Salesforce Code Versioning Guide
 
-You can use the [editor on GitHub](https://github.com/satyajeetmaharana/sfdc-code-versioning/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+When I got a deadline of 1 week for implementation of a code versioning for our project's Salesforce org, I headed over to Google assuming it would take just 2 days for this implementation. But I was wrong. There were very few resources which provided steps for achieving this. *Challenge Accepted*
+
+Based on a colleague's suggestion, I decided to use Bitbucket + Bamboo for a quick proof of concept. So here it goes. 
+
+First : 
+We need to setup a repository for our Salesforce metadata. In our case, we wanted to have a repository only for Apex Classes, Triggers & Visualforce pages. 
+
+Headover to bitbucket.org. Open a new 
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
